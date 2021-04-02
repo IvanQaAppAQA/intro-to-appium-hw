@@ -20,8 +20,7 @@ public class PageView {
     }
 
     public String getTextField() {
-        // TODO return text from the textField element
-        return textField.getText();
+        return textField.getText();// TODO return text from the textField element
     }
 
     public PageView setTextField(String text) {

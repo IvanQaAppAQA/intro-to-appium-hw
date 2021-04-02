@@ -58,9 +58,6 @@ public class SampleAppTest {
         view.setTextField("test");
 
         Assert.assertEquals(view.getTextField(), "test", "Text filed was not set");
-        // TODO initialise PageView and set "text" to its textField
-
-        // TODO assert that textField equals to "text"
     }
 
     @AfterClass
